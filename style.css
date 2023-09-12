@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #efe8f0;
+}
+header {
+    background-color: #28172d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+section h2 {
+    font-size: 20px;
+}
+#user-info, #actions, #project-list {
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: #0078d4;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+    button {
+        padding: 10px 20px;
+        background-color:#28172d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+       
+    }
+
+    button:hover{
+        background-color: black;
+    }
+
+table{
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+
+
+.vertical-navbar {
+    background-color: #28172d;
+    color: #28172d;
+    width: 10px;
+    position:fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #28172d;
+    display: block;
+    padding: 1rem 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 10%;
+    height: 100%;
+    background-color: #28172d;
+    overflow: auto;
+    position: fixed;
+}
+
+li a {
+    color: white;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+.d1{
+    margin: left 0%;;
+}
+
+caption{
+    text-decoration: underline;
+}
